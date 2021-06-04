@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:VStrip"
+             x:Class="VStrip.MainPage">
+    <Grid>
+        <ScrollView>
+            <FlexLayout x:Name="flexLayout"
+                        Wrap="Wrap"
+                        JustifyContent="SpaceAround" />
+            </ScrollView>
+        <ImageButton Source="@drawable/plus" Padding="10"  HeightRequest="70" WidthRequest="70"
+                     HorizontalOptions="End" VerticalOptions="End" Margin="35" CornerRadius="35"
+                     BackgroundColor="LightSteelBlue"/>
+    </Grid>
+
+</ContentPage>
